@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<SecurityCheck />} />
-        <Route path="/AdminBhai" element={<Admin />} />
+        <Route path="/AdminBhai006" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   );
