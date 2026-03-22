@@ -1,14 +1,14 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 
-import SecurityCheck from "./Login";
+import SAPPortal from "./Login";
 import Admin from "./Admin";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<SecurityCheck />} />
+        <Route path="/" element={<SAPPortal />} />
         <Route path="/AdminBhai006" element={<Admin />} />
       </Routes>
     </BrowserRouter>
